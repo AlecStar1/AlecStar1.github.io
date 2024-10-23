@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: yellow;
+}
+.App-header {
+  background-color: #282c34;
+  background-image: url('IMG_5042.JPG');
+  background-size: cover;
+  min-height: 60vh;
+  min-width: 100vw;
+  background-position: center;
+  display: flex;
+  position: static;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 5vmin);
+  color: white;
+  
+}
+h1{
+  font-size: calc(10px + 5vmin);
+  color: black; position: absolute; top: 26.9%;
+}
+.App-header:after {
+  background-color: yellow;
+  content:""; 
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(193, 255, 228) 30%);
+  height: 80vh  ;  
+}
+
+.App-link {
+  color: #61dafb;
+}
+.content{
+  position: absolute;
+}
